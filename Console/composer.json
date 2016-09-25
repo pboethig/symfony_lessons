@@ -1,0 +1,22 @@
+{
+    "name": "pboethig/console",
+    "authors": [
+        {
+            "name": "pboethig",
+            "email": "pboethig@gmail.com"
+        }
+    ],
+    "require": {
+	"symfony/console":"*",
+    "symfony/framework-bundle":"*"
+
+ }
+ ,
+     "autoload": {
+        "psr-4": 
+        {
+            "Console\\Commands\\": "App/Commands/",
+            "Console\\Tests\\Commands\\": "tests/Commands/"
+        }
+    }
+}
